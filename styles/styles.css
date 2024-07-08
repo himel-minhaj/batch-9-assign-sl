@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
 body {
   font-family: "Merriweather", serif;
+}
+ /* banner sectin style start here */
+
+.banner-container{
+  
+width: 1320px;
+border: 2px solid tomato;
+min-height: 600px;
+margin: 0 auto;
+margin-top: 20px;
+border-radius: 16px;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;
+background-image: url("../images/Banner\ Image.png");
+background-position: center;
+background-repeat: no-repeat; /* img choto hole bar bar na ashe*/
+background-size: cover;  /*jata img ta purata cover kora*/
+}
+
+.banner-contant p, h1{
+color: rgb(255, 255, 255);
+}
+.banner-contant h1{
+  font-weight: 900;
+  font-size: 72px;
+}
+.banner-contant {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
