@@ -27,7 +27,10 @@ background-repeat: no-repeat; /* img choto hole bar bar na ashe*/
 background-size: cover;  /*jata img ta purata cover kora*/
 }
 
-.banner-contant p, h1{
+.banner-contant p{
+color: rgb(255, 255, 255);
+}
+.banner-contant h1{
 color: rgb(255, 255, 255);
 }
 .banner-contant h1{
@@ -91,3 +94,122 @@ height: 500px;
   width: 100%
 height: 100%;
 }
+/* <!-- Welcome to midnight party section  style starts hare  --> */
+.midnight-section-container{
+  /* border: 2px solid tomato; */
+  width: 1320px;
+height: 600px;
+margin: 0 auto;
+display: flex;
+background-image: url('../images/Vectorrr.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;
+margin-top: 100px;
+}
+.leftside-contant{
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+.leftside-contant h1{
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+}
+.leftside-contant p{
+  color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400px;
+margin-left: 10%;
+}
+#midnight-button{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+margin-right: 60%;
+margin-top: 30px;
+}
+
+.rightside-contant{
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid rgb(251, 255, 11); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* location-container start hare  */
+.location-container{
+border: 2px solid tomato;
+width: 1320px;
+height: 482px;
+margin: 0 auto;
+margin-top: 48px;
+border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+
+}
+
+.location-contant{
+  width: 549px;
+height: 168px;
+/* border: 2px solid tomato; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 300px;
+line-height: 50px;
+
+}
+.Place{
+  color: rgb(255, 0, 0);
+}
+
+.Date{
+  color: rgb(255, 0, 0);
+}
+.Time{
+  color: rgb(255, 0, 0);
+}
+
+.p {
+margin-left: 10%;
+} 
+.d {
+margin-left: 6%;
+} 
+.t {
+margin-right: 20px;
+} 
+.btn{
+  font-size: 20px;
+  border-radius: 8px;
+
+background: rgb(255, 0, 0);
+padding: 16px 32px;
+border: none;
+}
+
+
